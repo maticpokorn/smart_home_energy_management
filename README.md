@@ -1,1 +1,1 @@
-# smart_home_energy_management
+# SMART HOME ENERGY MANAGEMENT
