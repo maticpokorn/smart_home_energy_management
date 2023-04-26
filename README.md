@@ -5,18 +5,21 @@ This repository storest the code for a conference paper about smart home energy 
 ```
 project
 │   README.md
-│   file001.txt    
+│   adjust_dataset.py
+|   dqn.py
+|   env.py
+|   model.py
+|   reshape_ev_charging.py
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───data
+│   │   rtp.csv
+│   │   tou.csv
+│   |   tou2.csv
+│
+└───saved_nets
+|    │...
+│
+└───raw_data
+    │...
+    
 ```
