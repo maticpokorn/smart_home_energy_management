@@ -21,7 +21,7 @@ The main class has a fer superparameters:
 - ```path``` (default = None): path to directory from where to load if ```load = True```
 - ```battery``` (default = 100): maximum battery capacity in kWh
 - ```max_en``` (default = 5.8 / 4): maximum energy in kWh that can be charged or discharged from the battery in a single step (in our case in a 15 min window)
-- ``n_days``` (default = 2): number of past days that will be stored in the environment state
+- ```n_days``` (default = 2): number of past days that will be stored in the environment state
 #### Optional parameters for ```manager.train()```:
 - ```a``` (default = 3): weight parameters for reward function
 - ```b``` (default = 3): weight parameters for reward function
