@@ -16,7 +16,7 @@ The below code trains a new RL agent:
 manager = model.SHEM()
 manager.train()
 ```
-The main class has a fer superparameters:
+The main class has a few superparameters:
 - ```load```(default = False): tells the object to initialize from a pre-trained network
 - ```path``` (default = None): path to directory from where to load if ```load = True```
 - ```battery``` (default = 100): maximum battery capacity in kWh
